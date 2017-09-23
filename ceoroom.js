@@ -387,6 +387,9 @@
         initEmployeesByClass();
         initSkills();
     });
-    
+
+
+    $('#job-tabs').tabs();
+
   });
 })();
