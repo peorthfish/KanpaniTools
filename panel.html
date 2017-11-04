@@ -90,8 +90,28 @@
                 </div>
             </div>
             <div id="news-content">
+                <div id="dungeon-content">
+                    <div class="schedule-item" id="dungeon-item">
+                        <div id="dungeon-text">
+                            &nbsp;<span class="SCHEDULE_DUNGEON_CAUTIOUS_ENEMY">
+                                [Floating Continent] Caution Mode
+                            </span>
+                            [Lv.<span id="dungeon-level">0</span>]
+                            <span style="float:right" id="dungeon-remaining-time"></span>
+                        </div>
+                        <div id="dungeon-cur"></div>
+                    </div>
+                </div>
                 <div id="schedule-content"></div>
                 <div id="player-news-content"></div>
+                <table id="news-template" class="news-row" hidden>
+                    <tr>
+                        <td class="news-row-content"></td>
+                        <td class="news-row-image-container">
+                            <img class="news-row-image" src="" />
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
 

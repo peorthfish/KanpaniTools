@@ -222,6 +222,7 @@
     font-size: 13px;
 }
 
+#dungeon-content,
 #schedule-content,
 #player-news-content {
     float: left;
@@ -233,6 +234,7 @@
     padding: 5px;
 }
 
+#dungeon-content,
 #schedule-content {
     width: 100%;
 }
@@ -251,14 +253,26 @@
 .schedule-item-goingon {
     background-color: #aa0;
 }
-
-
-.news-image {
-    width: 20px;
+#dungeon-item {
+    position: relative;
+    background-color: #424242;
 }
-
-.news-image:hover {
-    width: 40px;
+#dungeon-text {
+    position: relative;
+    z-index: 1;
+}
+#dungeon-cur {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 3px;
+}
+.dungeon-warning {
+    background-color: #a00;
+}
+.dungeon-safe {
+    background-color: #189292;
 }
 
 .player-41-50 {
@@ -281,7 +295,21 @@
     color: #e00;
 }
 
+.news-row {
+    position: relative;
+    width: 100%;
+    border-top: 1px solid #666;
+}
 
+.news-row-content {
+    font-size: 13px;
+}
+
+.news-row-image-container {
+    width: 44px;
+    padding: 2px 0px;
+    text-align: center;
+}
 
 /* ================================= DIALOGUES TAB ================================= */
 
